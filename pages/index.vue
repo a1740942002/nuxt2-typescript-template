@@ -1,8 +1,7 @@
-<template>
-  <div>
-    <h1 class="bg-red-500">{{ count }}</h1>
-    <button @click="handleClick">+1</button>
-  </div>
+<template lang="pug">
+div
+  h1 Hello Nuxt.js
+
 </template>
 
 <script setup lang="ts">
@@ -11,3 +10,8 @@ const handleClick = () => {
   count.value++;
 };
 </script>
+
+<style lang="sass" scoped>
+h1
+  background-color: red
+</style>
