@@ -1,4 +1,4 @@
-module.exports = () => ({
+module.exports = {
   // targets to transform
   include: [
     /\.[tj]sx?$/, // .ts, .tsx, .js, .jsx
@@ -10,6 +10,6 @@ module.exports = () => ({
   // global imports to register
   imports: [
     // presets
-    "@nuxtjs/composition-api",
+    '@nuxtjs/composition-api',
   ],
-});
+}

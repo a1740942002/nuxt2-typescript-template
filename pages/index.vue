@@ -1,17 +1,19 @@
 <template lang="pug">
 div
-  h1 Hello Nuxt.js
+  Hello
+  h2  {{count}}
+  button(@click="handleClick") +1
 
 </template>
 
 <script setup lang="ts">
-const count = ref(0);
+const count = ref(0)
 const handleClick = () => {
-  count.value++;
-};
+  count.value++
+}
 </script>
 
 <style lang="sass" scoped>
 h1
-  background-color: red
+  @apply bg-red-500
 </style>
