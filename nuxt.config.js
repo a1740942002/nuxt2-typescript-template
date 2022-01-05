@@ -31,13 +31,9 @@ export default {
     ['@nuxt/typescript-build', { typeCheck: false }],
     '@nuxt/postcss8',
     '@nuxtjs/composition-api/module',
-    'unplugin-vue2-script-setup/nuxt',
     ['unplugin-auto-import/nuxt', autoImportConfig],
     '@vueuse/nuxt',
   ],
-  scriptSetup: {
-    /* options */
-  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],

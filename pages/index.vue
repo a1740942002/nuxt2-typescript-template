@@ -1,5 +1,6 @@
 <template lang="pug">
 div
+  FooBar
   Hello
   h2  {{count}}
   button(@click="handleClick") +1
