@@ -1,10 +1,7 @@
 <template lang="pug">
-div
-  FooBar
-  Hello
+.index-container
   h2  {{count}}
   button(@click="handleClick") +1
-
 </template>
 
 <script setup lang="ts">
@@ -15,6 +12,6 @@ const handleClick = () => {
 </script>
 
 <style lang="sass" scoped>
-h1
+.index-container
   @apply bg-red-500
 </style>
