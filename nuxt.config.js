@@ -1,6 +1,7 @@
 const autoImportConfig = require('./config/autoImportConfig')
 
 export default {
+  ssr: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Nuxt 2 TypeScript Template',
@@ -42,6 +43,7 @@ export default {
   build: {
     postcss: {
       plugins: {
+        'postcss-import': {},
         tailwindcss: {},
         autoprefixer: {},
       },
