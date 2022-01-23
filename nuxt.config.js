@@ -29,10 +29,10 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/typescript
-    ['@nuxt/typescript-build', { typeCheck: false }],
-    '@nuxt/postcss8',
+    ['@nuxt/typescript-build'],
     '@nuxtjs/composition-api/module',
     ['unplugin-auto-import/nuxt', autoImportConfig],
+    '@nuxt/postcss8',
     '@vueuse/nuxt',
   ],
 
